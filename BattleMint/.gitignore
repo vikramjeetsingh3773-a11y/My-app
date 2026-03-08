@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+/.pub-cache/
+/packages
+/pubspec.lock
+*.lock
+
+# Build outputs
+build/
+dist/
+.dart_tool/
+.flutter-plugins
+.packages
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.iml
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Sensitive files
+*.jks
+*.key
+*.pem
+
+# Cache
+.cache/
+.npm/
