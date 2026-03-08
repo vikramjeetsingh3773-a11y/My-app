@@ -27,7 +27,10 @@ jobs:
           flutter-version: '3.16.0'
           channel: stable
           cache: true
-      
+          
+      - name: Disable Flutter Analytics
+        run: flutter config --no-analytics
+  
       - name: Get Flutter dependencies
         working-directory: ./mobile_app
         run: flutter pub get
